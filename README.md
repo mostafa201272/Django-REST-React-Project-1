@@ -18,8 +18,8 @@
 
 
 # Create Django Environment Steps:
-==============================
-> 1. Add Python Scripts Path To Directory "PYTHON_INSTALATION_DIRECTORY_PATH\Python\Python38-32\Scripts"
+> 1. Add Python Scripts Path To The Environment Variables
+>> * "PYTHON_INSTALATION_DIRECTORY_PATH\Python\Python38-32\Scripts"
 
 > 2. Create an Isolation Area For Project (For Production)
 >> * Commend:
@@ -44,8 +44,8 @@
 > 7. Set up Django:
 >> * Commands:
 >>> * easy_install django
->>> ***OR***
->>> * py -m pip install Django
+>>> * ***OR***
+>>> * pip install Django
 
 > 8. Check the Django Version
 >> * Command:
