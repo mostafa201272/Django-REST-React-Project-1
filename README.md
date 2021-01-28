@@ -44,7 +44,7 @@
 > 7. Set up Django:
 >> * Commands:
 >>> `easy_install django`
->>> * ***OR***
+>>> ***OR***
 >>> `pip install Django`
 
 > 8. Check the Django Version
