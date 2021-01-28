@@ -15,3 +15,42 @@
 >>>> - YOUR_DIRECTORY_PATH/Django-REST-React-Project-1/scripts
 >>> - RUN THE activation File
 >>>> - ./activate
+
+
+# Create Django Environment Steps:
+==============================
+> 1. Add Python Scripts Path To Directory "PYTHON_INSTALATION_DIRECTORY_PATH\Python\Python38-32\Scripts"
+
+> 2. Create an Isolation Area For Project (For Production)
+>> * Commend:
+>>>	* mikdir "Environment Folder name"
+
+> 3. Change Your current directory to the Environment directory
+>> * Command:
+>>> * cd YOUR_DIRECTORY_PATH/Environment_DIRECTORY
+
+> 4. Using "easy_install" tool to Setup the Environment
+>> * Command:
+>>> * easy_install virtualenv
+
+> 5. Set Name For Virtual Environment:
+>> * Command:
+>>> * virtualenv environment_name
+
+> 6. Activate Environment:
+>> * Command:
+>>> * YOUR_DIRECTORY_PATH/Environment_DIRECTORY/Scripts/activate
+
+> 7. Set up Django:
+>> * Commands:
+>>> * easy_install django
+>>> ***OR***
+>>> * py -m pip install Django
+
+> 8. Check the Django Version
+>> * Command:
+>>> * django-admin --version
+
+> 9. If you want to Deactivation the Environment
+>> * Command:
+>>> * deactivate
