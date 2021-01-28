@@ -23,7 +23,7 @@
 
 > 2. Create an Isolation Area For Project (For Production)
 >> * Commend:
->>>	* mikdir "Environment Folder name"
+>>>	`mikdir "Environment Folder name"`
 
 > 3. Change Your current directory to the Environment directory
 >> * Command:
