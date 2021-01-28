@@ -27,30 +27,30 @@
 
 > 3. Change Your current directory to the Environment directory
 >> * Command:
->>> * cd YOUR_DIRECTORY_PATH/Environment_DIRECTORY
+>>> `cd YOUR_DIRECTORY_PATH/Environment_DIRECTORY`
 
 > 4. Using "easy_install" tool to Setup the Environment
 >> * Command:
->>> * easy_install virtualenv
+>>> `easy_install virtualenv`
 
 > 5. Set Name For Virtual Environment:
 >> * Command:
->>> * virtualenv environment_name
+>>> `virtualenv environment_name`
 
 > 6. Activate Environment:
 >> * Command:
->>> * YOUR_DIRECTORY_PATH/Environment_DIRECTORY/Scripts/activate
+>>> `YOUR_DIRECTORY_PATH/Environment_DIRECTORY/Scripts/activate`
 
 > 7. Set up Django:
 >> * Commands:
->>> * easy_install django
+>>> `easy_install django`
 >>> * ***OR***
->>> * pip install Django
+>>> `pip install Django`
 
 > 8. Check the Django Version
 >> * Command:
->>> * django-admin --version
+>>> `django-admin --version`
 
 > 9. If you want to Deactivation the Environment
 >> * Command:
->>> * deactivate
+>>> `deactivate`
