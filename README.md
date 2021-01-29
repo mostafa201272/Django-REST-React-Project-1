@@ -22,35 +22,32 @@
 >> * "PYTHON_INSTALATION_DIRECTORY_PATH\Python\Python38-32\Scripts"
 
 > 2. Create an Isolation Area For Project (For Production)
->> * Commend:
->>>	`mikdir "Environment Folder name"`
+>> - command: `mkdir "Environment Folder name"`
 
 > 3. Change Your current directory to the Environment directory
->> * Command:
->>> `cd YOUR_DIRECTORY_PATH/Environment_DIRECTORY`
+>> - command: `cd YOUR_DIRECTORY_PATH/Environment_DIRECTORY`
 
-> 4. Using "easy_install" tool to Setup the Environment
->> * Command:
->>> `easy_install virtualenv`
+> 4. Install The Virtual Environment
+>> - command: `python -m venv "Environment_DIRECTORY_PATH" `
 
-> 5. Set Name For Virtual Environment:
->> * Command:
->>> `virtualenv environment_name`
+> 5. Activate Environment
+>> - command: `YOUR_DIRECTORY_PATH/Environment_DIRECTORY/Scripts/activate`
+>> - ***OR***
+>> - Change your current directory to environment Scripts Folder and activate
+>>> 1. command: `cd YOUR_DIRECTORY_PATH/Environment_DIRECTORY/Scripts/`
+>>> 2. command: `activate`
 
-> 6. Activate Environment:
->> * Command:
->>> `YOUR_DIRECTORY_PATH/Environment_DIRECTORY/Scripts/activate`
+> 6. Upgrade pip
+>> - command: `python -m pip install --upgrade pip`
 
-> 7. Set up Django:
->> * Commands:
->>> `easy_install django`
->>> ***OR***
->>> `pip install Django`
+> 7. Install Django
+>> - command: `pip install django`
 
 > 8. Check the Django Version
->> * Command:
->>> `django-admin --version`
+>> - command: `django-admin --version`
 
-> 9. If you want to Deactivation the Environment
->> * Command:
->>> `deactivate`
+> 9. Install Django REST Framework
+>> - command: `pip install djangorestframework`
+
+> 10. Deactivate the Virtual Environment
+>> - command: `deactivate`
