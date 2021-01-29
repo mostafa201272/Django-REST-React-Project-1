@@ -18,36 +18,36 @@
 
 
 # Create Django Environment Steps:
-> 1. Add Python Scripts Path To The Environment Variables
+> **1. Add Python Scripts Path To The Environment Variables**
 >> * "PYTHON_INSTALATION_DIRECTORY_PATH\Python\Python38-32\Scripts"
 
-> 2. Create an Isolation Area For Project (For Production)
+> **2. Create an Isolation Area For Project (For Production)**
 >> - command: `mkdir "Environment Folder name"`
 
-> 3. Change Your current directory to the Environment directory
+> **3. Change Your current directory to the Environment directory**
 >> - command: `cd YOUR_DIRECTORY_PATH/Environment_DIRECTORY`
 
-> 4. Install The Virtual Environment
+> **4. Install The Virtual Environment**
 >> - command: `python -m venv "Environment_DIRECTORY_PATH" `
 
-> 5. Activate Environment
+> **5. Activate Environment**
 >> - command: `YOUR_DIRECTORY_PATH/Environment_DIRECTORY/Scripts/activate`
 >> - ***OR***
 >> - Change your current directory to environment Scripts Folder and activate
 >>> 1. command: `cd YOUR_DIRECTORY_PATH/Environment_DIRECTORY/Scripts/`
 >>> 2. command: `activate`
 
-> 6. Upgrade pip
+> **6. Upgrade pip**
 >> - command: `python -m pip install --upgrade pip`
 
-> 7. Install Django
+> **7. Install Django**
 >> - command: `pip install django`
 
-> 8. Check the Django Version
+> **8. Check the Django Version**
 >> - command: `django-admin --version`
 
-> 9. Install Django REST Framework
+> **9. Install Django REST Framework**
 >> - command: `pip install djangorestframework`
 
-> 10. Deactivate the Virtual Environment
+> **10. Deactivate the Virtual Environment**
 >> - command: `deactivate`
